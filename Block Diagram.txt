@@ -1,0 +1,35 @@
+           ┌───────────────┐
+           │  User Upload  │
+           └───────┬───────┘
+                   │
+                   ▼
+        ┌────────────────────┐
+        │ File Type Detector │
+        └────────┬───────────┘
+                 │
+     ┌───────────┴─────────────┐
+     │                         │
+     ▼                         ▼
+Text Extraction            OCR Engine
+(PDF/Word)                 (Images)
+     │                         │
+     └─────────────┬───────────┘
+                   ▼
+           Font Detection
+                   │
+        ┌──────────┴──────────┐
+        │                     │
+        ▼                     ▼
+Unicode Text           Shivaji Converter
+                            │
+                            ▼
+                     Unicode Marathi
+                            │
+                            ▼
+                      Document Viewer
+                            │
+                            ▼
+                       Export Engine
+                            │
+                            ▼
+                    Final Clean PDF
